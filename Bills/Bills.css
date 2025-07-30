@@ -1,0 +1,50 @@
+.BillsSec {
+  border: 1px solid rgb(77, 76, 76);
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.BillsSec h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.BillsSec p{
+    font-size: 14px;
+}
+
+.BillsSec a{
+    color: rgb(20, 148, 239);
+    font-weight: 500;
+}
+.BillsSec a:hover{
+  text-decoration: underline;
+}
+.BillsSecleft{
+    width: 20%;
+}
+.BillsSecright{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+}
+
+@media (max-width:768px){
+    .BillsSecright{
+      width: 100%;
+    }
+    .BillsSecleft{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+      .BillsSecright{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,35 @@
+.categoriesSec{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.categoriesSec div{
+    width: 110px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+    padding: 10px;
+}
+
+.categoriesSec div img{
+    border: 1px solid rgb(135, 131, 131);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.categoriesSec p{
+    font-size: 12px;
+}
+.wedding{
+   transform: rotate(5deg);
+   transition: all 1s ease-in-out;
+}
+
+.wedding:hover{
+    transform: scale(1.2) rotate(-10deg);
+}

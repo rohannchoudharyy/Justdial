@@ -1,0 +1,40 @@
+.slider-container {
+    width: 80%;  /* Set the width of the container */
+    margin: 0 auto;
+  }
+  
+  .slick-slide {
+    margin: 0 10px;  /* Adds space between slides */
+  }
+  
+  .slick-prev, .slick-next {
+    font-size: 18px;
+    color: #000;  /* Customize arrow color */
+    z-index: 1;  /* Ensures arrows appear above the carousel */
+  }
+  
+  .slick-prev:hover, .slick-next:hover {
+    color: #ff0000;  /* Customize the arrow hover color */
+  }
+  
+  .slick-prev {
+    left: -40px;  /* Position previous button */
+  }
+  
+  .slick-next {
+    right: -40px;  /* Position next button */
+  }
+  
+  .slider-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;  /* Adjust the height as needed */
+    background: #ddd;  /* Background color for visibility */
+    border-radius: 10px;  /* Optional styling */
+  }
+  
+  .slick-center .slider-item {
+    transform: scale(1.1);  /* Makes the center slide larger */
+  }
+  
