@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 
+:root{
+    --white:#fff;
+    --black:#111;
+    --salmon:#fa8072;
+} */
